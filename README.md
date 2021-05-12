@@ -1,24 +1,47 @@
-# ML Game Analytics 📊  
-Análisis predictivo de datos en videojuegos utilizando Machine Learning.  
+## Machine Learning Game Analytics  
 
-## 📊 Tecnologías  
+This project focuses on analyzing in-game player behavior using machine learning techniques to identify patterns and trends. The dataset includes player statistics, game session logs, and performance metrics extracted from competitive gaming scenarios.  
+
+### Features  
+- Data preprocessing and feature engineering  
+- Predictive modeling using regression and classification  
+- Time-series analysis for player progression tracking  
+- Automated data ingestion and pipeline orchestration  
+
+### Technologies Used  
 - Python  
-- Pandas  
+- Pandas, NumPy  
 - Scikit-Learn  
-- Matplotlib  
+- Apache Spark  
+- Jupyter Notebooks  
 
-## 🔍 Objetivo  
-Predecir patrones de juego en Fortnite y analizar tendencias de jugadores.  
+### Project Structure  
+```
+ml-game-analytics/
+│── data/               # Raw and processed datasets
+│── models/             # Trained machine learning models
+│── notebooks/          # Exploratory data analysis and visualization
+│── scripts/            # Data preprocessing and model training scripts
+│── requirements.txt    # Dependencies
+│── README.md           # Project documentation
+```
 
-## 📂 Estructura  
--  → Datasets de jugadores  
--  → Modelos de ML entrenados  
--  → Análisis exploratorio de datos  
+### Installation & Setup  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/thomas-sdet-qa-test2/ml-game-analytics.git  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+3. Execute the analysis scripts:  
+   ```bash  
+   python scripts/data_analysis.py  
+   ```  
 
-## 🚀 Instalación  
-1. Clonar el repo  
-2. Instalar dependencias con   
-3. Ejecutar el análisis con   
+### Model Deployment  
+The trained models can be deployed in a real-time environment to analyze and predict player behaviors dynamically.  
 
-## 📌 Contribución  
-Si tienes ideas para mejorar el modelo, abre un PR!
+### Contributing  
+Submit any feature enhancements or bug fixes via pull requests.
